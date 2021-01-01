@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Post?",
+    "slug": "RandomReddit",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "androidNavigationBar":{
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
+    "androidStatusBar":{
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Asian_Nerd_Software.Post_QS",
+      "versionCode": 1,
+      "permissions":[
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT"
+      ]
+    }
+  }
+}
